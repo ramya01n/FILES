@@ -1,0 +1,202 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="Hype_project.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+<%--Meta tag for responsiveness--%>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+     <%--bootstrap css--%>
+    <link href="Bootstrap/cs/bootstrap.min.css" rel="stylesheet" />
+     <%--datatable css--%>
+    <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+     <%--fontawesome css--%>
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+
+
+     <%--Custom css--%>
+    <link href="css/CustomStyleSheet.css" rel="stylesheet" />
+
+
+    <%--jquery--%>
+    <script src="Bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+    <%--popper js--%>
+    <script src="Bootstrap/js/popper.min.js"></script>
+    <%--bootstrap js--%>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+<body>
+<%--Yellow email varification part--%>
+            <div class="container-fluid" style="margin-left: 0px; margin-right: 0px; padding-left:0px;padding-right:0px; ">
+                <div class="row">
+                    <div class="col-md-12" style="display:flex" >  
+                        <label style="height:50px;width:100%;padding:10px 10px 10px 135px;background-color:lightgoldenrodyellow;"><i class="fa fa-lock" aria-hidden="true">
+                            Your email address is not verified. Please verify your email address to use all the features.</i></label>  
+                         <button onclick="myFunction()" style="background-color:gray;margin-left:0px;width:134px;height:48px">Verify Email</button>
+                          <p id="click"></p>
+                    </div>                         
+                 </div>
+             </div>   
+
+<!--HEADER AND NAVIGATION PART START-->
+    <form id="form2" runat="server">
+          <nav class="navbar navbar-inverse" style="border-width:1px; border-bottom:solid; border-top:solid "  >
+              <div class="container-fluid" > 
+                <div class ="navbar header"   >
+                   <a href="https://localhost:44367/homepage.aspx">
+                       <img width="150px" src="images/hype.%202023-04-17%20195423.png"/ style="   border: none;max-width: 100px;height: auto;" href="https://localhost:44367/homepage.aspx">
+                   </a>
+               </div>
+            <class="nav navbar-nav navbar-right"    >
+                    
+                      
+                       <div class="form-group" style="display:flex">
+                         <a href="userlogin.aspx"><input class="btn btn-info btn-block btn-lg" id="Button1" type="button" value="JOIN NOW" /></a>
+                       </div>          
+            
+               <div style="position: relative;display: inline-block;">
+                   <label for="Language"></label>
+                   <select name="Languge" id="Languge">
+                       <option value="English">English</option>
+                       <option value=" Arabic "> Arabic </option>
+                       <option value="Bangali">Bangali</option>
+                       <option value="Bulgarian">Bulgarian</option>
+                       <option value="Chinese">Chinese</option>
+                       <option value="English">English</option>
+                       <option value="French">French</option>
+                       <option value="German">German</option>
+                       <option value="Hebrew">Hebrew</option>
+                       <option value="Hindi">Hindi</option>
+                       <option value="Italian">Italian</option>
+                       <option value="Hindi">Hindi</option>
+                       <option value="Japanese">Japanese</option>
+                       <option value="Polish">Polish</option>
+                       <option value="Romanian">Romanian</option>
+                       <option value="Russian">Russian</option>
+                       <option value="Spanish">Spanish</option>
+                       <option value="Swedish">Swedish</option>
+                       <option value="Thai">Thai</option>
+                       <option value="Turkish">Turkish</option>
+                       <option value="Urdu">Urdu</option>
+                       <option value="Vietnamese">Vietnamese</option>
+                    </select>
+                 </div>
+               
+            
+           </div>
+         </nav>
+       
+                 
+
+              
+
+
+      <!--HEADER AND NAVIGATION PART ENDS-->
+
+                
+      
+
+
+        <%--maincontent placeholder--%>
+        <div>
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+           </asp:ContentPlaceHolder>
+        </div>
+        <%--maincontent placeholder--%>
+
+<!-- Footer -->
+      <div id="footer" style="background-color:#303030">
+        <div class="footer-middle-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-12">
+                        <div class="footer-logo">
+                            <img src="images/Footer%20all%20images/Screenshot%202023-04-27%20130014.png" alt="Logo">                           
+                        </div>
+                        <p style="color: white;">Create SEO-optimized and unique content for your blogs, ads, emails, and website 10X faster &amp; save hours of work with hype</p>
+                    </div>
+               <div class="col-xl-1 col-lg-1">
+                 </div>
+                    <div class="col-xl-2 col-lg-2 col-md-4">
+                        <div style="color: white;" class="footer-links">
+                            <h3>My Account</h3>
+                                <ul >
+                                   <li ><a style="color: white;" href="userlogin.aspx">Login</a></li>
+                                    <li><a style="color: white;" href="userregister.aspx">Register</a></li>                         
+                               </ul>
+                          </div>
+                      </div>
+                    <div class="col-xl-2 col-lg-2 col-md-4">
+                        <div style="color: white;" class="footer-links">
+                            <h3>Helpful Links</h3>
+                                <ul">
+                                    <li><a style="color: white;" href="recent_blog_internal_page.aspx">Blog</a></li>                            
+                                    <li><a style="color: white;"  href="Footer_Feedback_Page.aspx">Feedback</a></li>
+                                    <li><a style="color: white;"  href="Footer_Contact_Page.aspx">Contact</a></li>
+                                </ul>
+                        </div>
+                    </div>
+                  <div class="col-xl-2 col-lg-2 col-md-4">
+                        <div style="color: white;" class="footer-links">
+                            <h3>Information</h3>
+                                 <ul>
+                                    <li><a style="color: white;" href="Footer_FAQ.aspx">FAQ</a></li>
+                                    <li><a style="color: white;" href="testimonials_inner_page.aspx">Testimonials</a></li>                        
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <hr style="border-top: dotted 1px;" /> 
+        <div class="footer-bottom-section">
+       
+                    
+                <div class="container-fluid"  >
+                     <div class="row">
+                        <div class="col-xl-12">
+                          <div style="color: white;" class="footer-row">
+                              
+                                 
+                                     <span style="float:left" class="footer-copyright-text">2023 Socius IGB Pvt Ltd, All right reserved</span>
+                                      <span style="float:right"> <a href="https://twitter.com/" target="_blank" rel="nofollow"><i class="fa-brands fa-twitter"></i> </a>
+                                         <a href="https://www.instagram.com/" target="_blank" rel="nofollow"><i class="fa-brands fa-instagram"></i></a>                           
+                                         <a href="https://www.linkedin.com/" target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin-in"></i></a>      
+                                         <a href="https://in.pinterest.com/" target="_blank" rel="nofollow"><i class="fa-brands fa-pinterest"></i></a>                           
+                                         <a href="https://www.youtube.com/" target="_blank" rel="nofollow"><i class="fa-brands fa-youtube"></i></a></span></div>                       
+                            </div>                  
+                          </div>
+                       </div>
+                   </div>
+                </div>
+    </form>
+<%--Script of above pop up email varication part--%>
+<script>
+function myFunction() {
+  let text;
+  let email = prompt("Please enter your email:", "");
+  if (email == null || email == "") {
+    text = "Try Again.";
+  } else {
+      text = "Email Verified";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+
+
+</html>
