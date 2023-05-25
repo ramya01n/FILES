@@ -386,7 +386,7 @@ div.content {
                             </div>                 
                       <a href="https://localhost:44362/membershipplan.aspx"><i class="fa fa-gift" aria-hidden="true"></i> Membership</a>
                       <a href="#"><i class="fa fa-file-text" aria-hidden="true"></i>Transaction</a>
-                      <a href="https://localhost:44362/accountsettings55555.aspx"><i class="fa fa-cog" aria-hidden="true"></i>Account Settings</a>
+                      <a href="https://localhost:44322/Account%20setting%20page.aspx#"><i class="fa fa-cog" aria-hidden="true"></i>Account Settings</a>
                       <a href="#"><i class="fa fa-power-off" aria-hidden="true"></i>Logout</a>
                    </div>
              <%-- breadcrumps --%>
@@ -402,10 +402,9 @@ div.content {
                                        </div> 
                                     
                                     </div>
-                             <div style="padding-right:40px;" class="col-6">
-                                  
-                               </div>
-                         </div>
+             <div style="padding-right:40px;" class="col-6">                
+        </div>
+   </div>
             <%-- breadcrumps end --%>
        <div class="container1">
       <div class="word-box">

@@ -2168,7 +2168,8 @@
     <Content Include="images\words used this month.png" />
     <Content Include="Loginpage.aspx" />
     <Content Include="membership main page.aspx" />
-    <Content Include="membership plans.aspx" />
+    <Content Include="billing details.aspx" />
+    <Content Include="membership plan.aspx" />
     <Content Include="membershipbilling detailsaspx.aspx" />
     <Content Include="Recent blog.aspx" />
     <Content Include="Registrationpage.aspx" />
@@ -2293,12 +2294,19 @@
     <Compile Include="membership main page.aspx.designer.cs">
       <DependentUpon>membership main page.aspx</DependentUpon>
     </Compile>
-    <Compile Include="membership plans.aspx.cs">
-      <DependentUpon>membership plans.aspx</DependentUpon>
+    <Compile Include="billing details.aspx.cs">
+      <DependentUpon>billing details.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="membership plans.aspx.designer.cs">
-      <DependentUpon>membership plans.aspx</DependentUpon>
+    <Compile Include="billing details.aspx.designer.cs">
+      <DependentUpon>billing details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="membership plan.aspx.cs">
+      <DependentUpon>membership plan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="membership plan.aspx.designer.cs">
+      <DependentUpon>membership plan.aspx</DependentUpon>
     </Compile>
     <Compile Include="membershipbilling detailsaspx.aspx.cs">
       <DependentUpon>membershipbilling detailsaspx.aspx</DependentUpon>

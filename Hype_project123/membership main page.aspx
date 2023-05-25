@@ -595,7 +595,7 @@ div.content {
                                                                             </tr>
                                       <tr>
                                            
-                                        <td align="right" colspan="7"><button type="button" class="button" onclick="window.location.href='https://localhost:44362/membership%20plan%201.aspx'">Change Plan</button></td>
+                                        <td align="right" colspan="7"><button type="button" class="button" onclick="window.location.href='https://localhost:44322/membership%20plan.aspx'">Change Plan</button></td>
                                     </tr>
                                 </tbody></table>
                             </div>

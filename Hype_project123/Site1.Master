@@ -47,6 +47,8 @@
         .auto-style4 {
             color: #FFFFFF;
             background-color: #000000;
+            height:46px;
+            width:64px;
         }
         .auto-style5 {
             float: right;
@@ -78,7 +80,7 @@
     </div>
    <div class="dropdown" style="float:right;padding-right:10px;border-left: 2px solid #e0e0e0;padding-top:20px;padding-left:10px;height:82px;">
                    <select name="Languge" id="Languge" class="auto-style4">
-                       <option value="en">english</option>
+                       <option value="en">En</option>
                        <option value=" Arabic "> Arabic </option>
                        <option value="Bangali">Bangali</option>
                        <option value="Bulgarian">Bulgarian</option>
@@ -103,7 +105,9 @@
                  </div>
       
                   <div style="padding-right:30px;border-left: 2px solid #e0e0e0;padding-top:20px;padding-left:30px;" class="auto-style5">
-          <a href="https://localhost:44322/Loginpage.aspx" class="btn btn-primary" style="background-color:#184698;border-radius: 4px;box-shadow:0 4px 12px;color: #fff">Join Now</a>
+  <a href="Loginpage.aspx" class="button ripple-effect button-sliding-icon" style="width: -47.906px;">Join Now</a>
+
+      
      </div>
     </div>
   </nav><br /><br />

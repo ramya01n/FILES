@@ -138,23 +138,13 @@ a {
 }
 /*login button*/
  .button {
-    background-color: #0949b9;
-    top: 0;
-    padding: 10px 20px;
-    line-height: 24px;
-    color: #fff;
-    position: relative;
-    font-size: 16px;
-    font-weight: 500;
-    display: inline-block;
-    transition: all .2s ease-in-out;
-    cursor: pointer;
-    overflow: hidden;
-    border: none;
-    border-radius: 4px;
-    box-shadow: 0 4px 12px rgba(102, 103, 107, .15);
-    width:20%;
+      
+            background-color: #0949b9;           
+            padding: 10px 20px;          
+            color: #fff;           
+            display: inline-block;                    
 }
+
     </style>
     <div class="container">
        
@@ -162,7 +152,7 @@ a {
    <div class="card">
       <div class="card-body">
         <h1>Login</h1>
-          <nav id="breadcrumbs" style="position: relative; float:right; display: inline-block; top: -51px; left: -126px;"; class="dark">
+          <nav id="breadcrumbs" style="position: relative; float:right; display: inline-block; top: -29px; left: -126px;"; class="dark">
             <ul>
              <li>
                <a href="Homepage.aspx">Home</a>
@@ -172,32 +162,39 @@ a {
           </nav>
              <div class="Welcome_Text" style="padding-left: 550px;">
                             <h1 style="height: 39px; width: 234px"> Welcome Back! </h1>
-                             <h4>Don't have an account?<a href="Registrationpage.aspx"> Sign Up Now!</a></h4>
+                             <h4 style="margin-left:-17px;">Don't have an account?<a href="Registrationpage.aspx"> Sign Up Now!</a></h4>
               </div>
          
-                <form  method ="post">
+              
                  <div class="input-width-icon-left" >
                   <i class="la la-user">
                   </i>
 
                  <center>
                  <div class="input-with-icon-left">
-                    <i class="la la-user"><span class="material-symbols-outlined"></span></i>
-                    <asp:TextBox ID="TextBox1"  runat="server"  class="form-control" name="Username / Email Address" placeholder="Username / Email Address" ></asp:TextBox>
-                 </div>          
+                    <i class="la la-user">
+                        <span class="material-symbols-outlined"></span></i>
+
+                     <asp:TextBox ID="TextBox1" runat="server"  class="form-control" name="Username / Email Address" placeholder="Username / Email Address" Height="37px" Width="412px"></asp:TextBox>
+                  <%--  <asp:TextBox ID="TextBox1"  runat="server"  class="form-control" name="Username / Email Address" placeholder="Username / Email Address" ></asp:TextBox>--%>
+                 </div> 
+                     <br />
                       <div class="input-with-icon-left">
                         <i class="la la-unlock"> </i>
-                         <asp:TextBox ID="TextBox2" class="form-control" name="Password" placeholder="Password" runat="server"></asp:TextBox>   
+                          <asp:TextBox ID="TextBox2" class="form-control" name="Password" placeholder="Password"  runat="server" Height="41px" Width="405px"></asp:TextBox>
+                           
+                        <%-- <asp:TextBox ID="TextBox2" class="form-control" name="Password" placeholder="Password" runat="server"></asp:TextBox>  --%> 
                       </div>
                      <a href="https://localhost:44322/ForgetPassword.aspx" style="margin-top: 40px;" class="forgot-password">Forgot Password?</a>
                                   <input type="hidden" name="ref" value="{REF}" />
                       </center>
                     
                          </div>
-                                   <a href="Loginpage.aspx" class="button ripple-effect button-sliding-icon" style="width: -47.906px;margin-left:-91px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Login</a>                    
-                            </div>                        
-                    </div>
-               
-            </div>
-        </div>
+          <div style="margin:32px;">
+              <asp:Button ID="Button1" runat="server" Text="Login" OnClick="Button1_click" Height="51px" style="margin-left: 463px" Width="318px" backcolor="DodgerBlue"/>
+          </div>                    
+         </div>                        
+        </div>              
+       </div>
+     </div>
     </asp:Content>

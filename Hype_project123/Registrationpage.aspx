@@ -136,37 +136,78 @@ a {
     list-style: none;
     margin: 0 0 0 7px;
 }
+ .button {
+    background-color: #0949b9;
+    top: 0;
+    padding: 10px 20px;
+    line-height: 24px;
+    color: #fff;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(102, 103, 107, .15);
+    width:20%;
+}
+/*registration*/
+  .button {
+    background-color: #0949b9;
+    top: 0;
+    padding: 10px 20px;
+    line-height: 24px;
+    color: #fff;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(102, 103, 107, .15);
+   
+}
     </style>
 
     <div class="container" style="padding-block-end: 62px;" >
         <div class="row">
             <h1>Register</h1>
+            <nav id="breadcrumbs" style="position: relative; float:right; display: inline-block; top: -29px; left: -126px;"; class="dark">
+            <ul>
+             <li>
+               <a href="Homepage.aspx">Home</a>
+                 </li>
+               <li>Register</li>
+            </ul>
+          </nav>
             <div class="col-xl-5 offset-xl-3">
                 <div class="login-register-page">
     <div class="login" style="text-align: center;">
         
         <div class="login1">
-           <h3 style="padding-left: 30px;"> <b>Lets Create Your account</b></h3>
+           <h3 style="padding-left: 30px;margin-left:94px;"> <b>Lets Create Your account</b></h3>
              <h4>Already have an account?<a href="user login.aspx"> Log in!</a></h4>
 
                 <div class="input-group">
-                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><asp:TextBox ID="TextBox1" class="form-control" name="Full Name" placeholder="Full Name"  runat="server">
-                  </asp:TextBox>
+                   <asp:TextBox ID="TextBox1" class="form-control" name="Full Name" placeholder="Full Name"  runat="server" Height="30px" Width="208px"></asp:TextBox>
                 </div><br>
                 <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><asp:TextBox ID="TextBox2" class="form-control" name="Full Name" placeholder="Username" runat="server">
-                    </asp:TextBox>
+                     <asp:TextBox ID="TextBox2" class="form-control" name="Full Name" placeholder="Username" runat="server" Height="31px" Width="209px"></asp:TextBox>
                   </div><br>
      
               <div class="input-group">
-                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><asp:TextBox ID="TextBox3" class="form-control" name="email" placeholder="Email"  runat="server" >
-                 </asp:TextBox>
+                <asp:TextBox ID="TextBox3" class="form-control" name="email" placeholder="Email"  runat="server" Height="30px" Width="208px" ></asp:TextBox>
               </div>
                
                 <br>
               <div class="input-group">
-                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span><asp:TextBox ID="TextBox4" class="form-control" name="password" placeholder="Password"  runat="server">
-                 </asp:TextBox>
+                <asp:TextBox ID="TextBox4" class="form-control" name="password" placeholder="Password"  runat="server" Height="31px" Width="209px"></asp:TextBox>
               </div><br>
                
               <div class="form-check">
@@ -174,7 +215,8 @@ a {
                 <label class="form-check-label" for="exampleCheck1">By clicking on Register button you are agree to our Terms & Condition</label>
               </div>
               <div >
-                                 <a href="#" style="margin-top: 40px;"><b>Register<b /></a>
+                  <a href="Loginpage.aspx" class="button ripple-effect button-sliding-icon" ">Registration</a>
+<%--                  <asp:Button ID="Button1" runat="server" Text="Registeration"  OnClick="Button1_click" Height="41px" Width="226px" BackColor="DodgerBlue" style="margin-top: 0px; margin-bottom: 0px"/>--%>
              </div>
             </div>
            </div>  
