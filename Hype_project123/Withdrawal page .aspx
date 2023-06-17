@@ -113,7 +113,7 @@
 
                .sidebar {
                    position: fixed;
-                   top: 85px;
+                   top: 105px;
                    width: 260px;
                    background-color: #fff;
                    overflow-x: hidden;
@@ -129,7 +129,7 @@
                    }
 
                        .sidebar ul li {
-                           width: 98%;
+                     
                            list-style: none;
                        }
 
@@ -162,10 +162,11 @@
                        background-color: white;
                    }
 
-               .dropdown {
-                   position: relative;
-                   display: inline-block;
-               }
+             .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: -16px;
+}
 
                .dropdown-content {
                    display: none;
@@ -278,7 +279,7 @@
                    }
 
                .dropdown img {
-                   height: 42px;
+                   height:77px;
                    border-radius: 20px;
                }
 
@@ -867,7 +868,7 @@
                  <div class="sidebar" style="font-size:20px">
                          <ul>
                              <li>
-                                 <div style="color:darkblue;font-weight:600;">
+                                 <div style="color:darkblue;">
                                     <h9> My Account</h9>
                                  </div>
                              </li>
@@ -888,7 +889,7 @@
 
                          <ul>
                              <li>
-                                 <div style="color:darkblue;font-weight:100;">
+                                 <div style="color:darkblue;">
                                     <h9>  Organize And Manage</h9>
                                  </div>
                              </li>
@@ -921,7 +922,7 @@
 
                              <ul>
                                  <li>
-                                 <div style="color:darkblue;font-weight:600;">
+                                 <div style="color:darkblue;">
                                     <h9>  Account</h9>
                                  </div>
                              </li>

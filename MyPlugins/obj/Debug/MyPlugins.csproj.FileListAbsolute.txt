@@ -1,0 +1,9 @@
+C:\Users\USERD007\source\repos\MyPlugins\obj\Debug\MyPlugins.csproj.AssemblyReference.cache
+C:\Users\USERD007\source\repos\MyPlugins\obj\Debug\MyPlugins.csproj.CoreCompileInputs.cache
+C:\Users\USERD007\source\repos\MyPlugins\bin\Debug\MyPlugins.dll
+C:\Users\USERD007\source\repos\MyPlugins\bin\Debug\MyPlugins.pdb
+C:\Users\USERD007\source\repos\MyPlugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\USERD007\source\repos\MyPlugins\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\USERD007\source\repos\MyPlugins\obj\Debug\MyPlugins.csproj.CopyComplete
+C:\Users\USERD007\source\repos\MyPlugins\obj\Debug\MyPlugins.dll
+C:\Users\USERD007\source\repos\MyPlugins\obj\Debug\MyPlugins.pdb

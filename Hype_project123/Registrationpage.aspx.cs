@@ -55,9 +55,6 @@ namespace Hype_project123
                     return false;
                 }
 
-                con.Close();
-                Response.Write("<script>alert('Sign Up Successful.Go to User Login');</script>");
-
             }
             catch (Exception ex)
             {

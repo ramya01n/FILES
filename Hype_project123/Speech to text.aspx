@@ -355,6 +355,7 @@ body {
     display:inline-block;
     list-style:none;
     margin:0 0 0 7px;
+    color:white;
 }
 #breadcrumbs ul li:first-child{
     margin-left:0;
@@ -370,9 +371,9 @@ body {
     border-radius: 4px;
     background-color: #fff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
-    margin-top: 30px;
+    margin-top: 69px;
     position: relative;
-    width:291px;
+    width:417px;
 }
 .dashboard-box .headline{
     display: flex;
@@ -434,8 +435,8 @@ table .basic-table{
     max-width: 33.333333%;
 }
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
-    position: relative;
-    width: 100%;
+    position: static;
+    width: 124%;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
@@ -479,7 +480,7 @@ body, h1, h2, h3, h4, h5, h6, input[type=text], input[type=password], input[type
     border-radius: 4px;
     background-color: #fff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
-    margin-top: 30px;
+    margin-top: 99px;
     position: relative;
 }
 
@@ -595,12 +596,7 @@ input[type="file" i] {
 .__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after {
     visibility: hidden !important;
 }
-        .auto-style2 {
-          /*  color: #FFFFFF;*/
-            /*width: 344px;*/
-            height: 6px;
-        }
-        
+                
 element.style {
     visibility: hidden;
     height: 500px;
@@ -725,85 +721,90 @@ element.style {
     overflow: hidden;
     position: relative;
 }
+        .auto-style2 {
+            background-color: #3366CC;
+        }
+        .auto-style3 {
+            color: #000000;
+        }
     </style>
 </head>
 <body>
- <div class="topbar"style="margin-top:-11px;">
-                    <div class="logo">                      
-                        <center>
-                            <img src="images/hypeimage.png" /> </center>
-                    </div>
-               <a href="javascript:void(0);"  class="header-icon">
-                       
+   <div class="topbar"style="margin-top:-11px;">
+      <div class="logo">                      
+          <center>
+            <img src="images/hypeimage.png" /> </center>
+     </div>
+         <a href="javascript:void(0);"  class="header-icon">                       
                    <i class="fa fa-bars" id="icon" style="margin-top: 32px;" onclick="myMine"></i>
-                    </a>
-                 
-          <div class="header-notifications user-menu">
-                                    <div class="header-notifications-trigger">
-                                        <a href="#" title="">
-                                            <div class="user-avatar status-online">
-                                                <div class="dropdown">
-                                                    <span onclick="myFunction1()" class="dropbtn1" >                                                     
-                                                        <img src="images/contact%20icon%20image.png" style="height:80px; width:100px;" />
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                             
-                                   <div id="login" class="dropdown-content"style="height: 465px;">
-                                        <ul class="user-menu-small-nav">
-                                            <li><a href="https://localhost:44308/DashBoard.aspx"><i class="fa fa-th-large"></i>Dashboard</a></li>
-                                            <li><a href="3"><i class="fa-solid fa-layer-group"></i>Templates</a></li>
-                                            <li><a href="#"><i class="fa-solid fa-image"></i>AI Images</a></li>
-                                            <li><a href="#"><i class="fa-solid fa-comment-dots"></i>AI Chat</a></li>
-                                            <li><a href="#"><i class="fa-solid fa-headphones"></i>Speech to Text</a></li>
-                                            <li><a href="#"><i class="fa-solid fa-code"></i>AI Code</a></li>
-                                            <li><a href="#"><i class="fa fa-file-text"></i>All Documents</a></li>
-                                            <li><a href="#"><i class="fa-solid fa-gift"></i>Membership</a></li>
-                                            <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i>Account Setting</a></li>
-                                            <li><a href="#"><i class="fa-solid fa-power-off"></i>Logout</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                     <div class="selectlang">
-                         <select  id="langbtn" class="popup-with-zoom-anim button ripple-effect">
-                                <option value="EN">English</option>
-                                <option value="Ta">Tamil</option>
-                                <option value="Te">Telugu</option>
-                                <option value="HI">Hindi</option>
-                         </select>
-                    </div>
+          </a>                 
+             <div class="header-notifications user-menu">
+                <div class="header-notifications-trigger">
+                    <a href="#" title="">
+                        <div class="user-avatar status-online">
+                            <div class="dropdown">
+                                 <span onclick="myFunction1()" class="dropbtn1" >                                                     
+                                     <img src="images/contact%20icon%20image.png" style="height:80px; width:100px;" />
+                                 </span>
+                             </div>
+                         </div>
+                      </a>
                  </div>
-     
-                <div class="sidebar" style="font-size:20px;height:82%;">
+                      <div id="login" class="dropdown-content"style="height: 465px;">
+                         <ul class="user-menu-small-nav">
+                             <li><a href="https://localhost:44308/DashBoard.aspx"><i class="fa fa-th-large"></i>Dashboard</a></li>
+                             <li><a href="3"><i class="fa-solid fa-layer-group"></i>Templates</a></li>
+                             <li><a href="#"><i class="fa-solid fa-image"></i>AI Images</a></li>
+                             <li><a href="#"><i class="fa-solid fa-comment-dots"></i>AI Chat</a></li>
+                             <li><a href="#"><i class="fa-solid fa-headphones"></i>Speech to Text</a></li>
+                             <li><a href="#"><i class="fa-solid fa-code"></i>AI Code</a></li>
+                             <li><a href="#"><i class="fa fa-file-text"></i>All Documents</a></li>
+                             <li><a href="#"><i class="fa-solid fa-gift"></i>Membership</a></li>
+                             <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i>Account Setting</a></li>
+                             <li><a href="#"><i class="fa-solid fa-power-off"></i>Logout</a></li>
+                         </ul>
+                   </div>
+            </div>
+              <div class="selectlang">
+                <select  id="langbtn" class="popup-with-zoom-anim button ripple-effect">
+                     <option value="EN">English</option>
+                     <option value="Ta">Tamil</option>
+                     <option value="Te">Telugu</option>
+                     <option value="HI">Hindi</option>
+                </select>
+             </div>
+        </div>
+           <div class="row">
+              <div class="col-lg-3" style="width:25%;">
+                  <div class="sidebar" style="font-size:20px;height:82%;">
+                     <ul>
+                        <li>
+                           <div style="color:darkblue;font-weight:600;">
+                              <span class="auto-style7">
+                                 <h9> My Account</h9></span>
+                           </div>
+                         </li>
+                      </ul>
+
                          <ul>
-                             <li "="">
-                                 <div style="color:darkblue;font-weight:600;">
-                                     <span class="auto-style7">
-                                    <h9> My Account</h9></span>
-                                 </div>
-                             </li>
-                             </ul>
-                    <ul>
                             <li>
                               <a href="#">
                                   <i class="fa fa-th-large"></i> <div>Dashboard</div>
                               </a>
                            </li>
                         </ul>
+
                     <ul>
-                        <li>
-                               <div class="dropdown">
-                        <a onclick="myFunction()" class="dropbtn" ><i class="fa fa-book" aria-hidden="true"></i>My Documents</a>
-                          <div id="myDropdown" class="dropdown-content" >
+                       <li>
+                         <div class="dropdown">
+                            <a onclick="myFunction()" class="dropbtn" ><i class="fa fa-book" aria-hidden="true"></i>My Documents</a>
+                              <div id="myDropdown" class="dropdown-content" >
                                    <a href="#">All Documents</a>
                                    <a href="#">All AI Images</a>
                               </div>
-                            </div>
-                            </li>
-                          </ul>
-
+                           </div>
+                        </li>
+                   </ul>
 
                          <ul>
                              <li>
@@ -812,271 +813,268 @@ element.style {
                                     <h9>  Organize And Manage</h9></span>
                                  </div>
                              </li>
-                            <li>
-                              <a href="#">
-                                 <i class="fa-solid fa-layer-group"></i> <div>Templates</div>
-                              </a>
-                           </li>
+
+                               <li>
+                                  <a href="#">
+                                     <i class="fa-solid fa-layer-group"></i> <div>Templates</div>
+                                  </a>
+                                </li>
+
                              <li>
-                              <a href="#">
+                               <a href="#">
                                   <i class="fa-solid fa-image"></i> <div>AI Imagesa</div>
-                              </a>
-                           </li>
+                               </a>
+                             </li>
+
                              <li>
-                              <a href="#">
+                               <a href="#">
                                   <i class="fa-solid fa-comment-dots"></i> <div>AI Chats</div>
-                              </a>
-                           </li>                    
+                               </a>
+                              </li>    
+                             
                             <li>
                               <a href="#">
-                                  <i class="fa-solid fa-headphones"></i> <div>Speech To Text</div>
+                                 <i class="fa-solid fa-headphones"></i> <div>Speech To Text</div>
                               </a>
-                           </li>
+                            </li>
+
                              <li>
-                              <a href="#">
+                               <a href="#">
                                  <i class="fa-solid fa-code"></i><div>AI Code</div>
-                              </a>
-                           </li>
-                             </ul>
+                               </a>
+                             </li>
+                          </ul>
 
                              <ul>
                                  <li>
-                                 <div style="color:darkblue;font-weight:600; margin-top:10px">
-                                     <span class="auto-style7">
-                                    <h9>  Account</h9></span>
-                                 </div>                                     
-                             </li>
-                                 </ul>
-                                   <ul>
-                                       <li>
-                              <div class="dropdown">
-                        <a onclick="myFunction2()" class="dropbtn" ><i class="fa fa-share-alt" aria-hidden="true"></i>Affiliate Program</a>
-                          <div id="myDropdown2" class="dropdown-content" >
-                                   <a href="#">Affiliate Programs</a>
-                                   <a href="#">Withdrawals</a><
-                        </div>
-                         </div>   
-                          </li>
+                                    <div style="color:darkblue;font-weight:600; margin-top:10px">
+                                       <span class="auto-style7">
+                                          <h9>  Account</h9></span>
+                                    </div>                                     
+                                 </li>
                             </ul>
+                                <ul>
+                                   <li>
+                                     <div class="dropdown">
+                                       <a onclick="myFunction2()" class="dropbtn" ><i class="fa fa-share-alt" aria-hidden="true"></i>Affiliate Program</a>
+                                         <div id="myDropdown2" class="dropdown-content" >
+                                            <a href="#">Affiliate Programs</a>
+                                            <a href="#">Withdrawals</a><
+                                         </div>
+                                     </div>   
+                                 </li>
+                             </ul>
                              
-                          <ul>   <li>
-                              <a href="https://localhost:44362/membershipplan.aspx">
-                                 <i class="fa-solid fa-gift"></i> <div>Membership</div>
-                              </a>
-                           </li></ul>
+                              <ul> 
+                                <li>
+                                  <a href="https://localhost:44362/membershipplan.aspx">
+                                    <i class="fa-solid fa-gift"></i> 
+                                      <div>Membership</div>
+                                   </a>
+                               </li>
+                            </ul>
                            
-                           <ul>  <li>
-                              <a href="#">
-                                  <i class="fa-solid fa-file"></i> <div>Transaction</div>
-                              </a>
-                           </li></ul>
-                              <ul><li>
-                              <a href="#">
-                                  <i class="fa-solid fa-right-from-bracket"></i><div>Account Setting</div>
-                              </a>
-                           </li></ul>
-                              <ul><li>
-                              <a href="#">
-                                  <i class="fa-solid fa-power-off"></i> <div>Log Out</div>
-                              </a>
-                           </li>
-                         </ul>
-                     </div>
-         <%--Speech to text --%>
-         <div class="dashboard-headline"style="margin-bottom:40px;padding:40px;margin-left:300px;">
-                    <h5 class="d-flex align-items-center">
-                      Speech to text</h5>
-                        <div class="word-used-wrapper margin-left-10">
-                            <i class="bi bi-bar-chart-line-fill"></i>
-                            <i id="quick-words-left">0</i> / 0
-                            <strong> Used</strong>
-                        </div>
-                   
-                    <!-- Breadcrumbs -->
-                    <nav id="breadcrumbs" class="dark">
-                        <ul style="border-radius:10px;">
-                            <li><a href="#" style="color:white;">Home</a></li>
-                            <li class="auto-style1">Speech to text</li>
-                        </ul>
-                    </nav>
-                </div>
-        <%-- dashboard box --%>
-        <div class="col-md-4"style="">
-            <div class="dashboard-box margin-top-0 margin-bottom-30"style="margin-left:300px">
-                <div class="headline">
-                    <h3>
-                       <i class="fa-solid fa-headphones"></i>Speech to Text </h3> 
+                           <ul>  
+                              <li>
+                                  <a href="#">
+                                    <i class="fa-solid fa-file"></i>
+                                       <div>Transaction</div>
+                                  </a>
+                              </li>
+                           </ul>
+
+                              <ul>
+                                 <li>
+                                    <a href="#">
+                                       <i class="fa-solid fa-right-from-bracket"></i><div>Account Setting</div>
+                                     </a>
+                                </li>
+                             </ul>
+
+                              <ul>
+                                  <li>
+                                     <a href="#">
+                                       <i class="fa-solid fa-power-off"></i> <div>Log Out</div>
+                                     </a>
+                                 </li>
+                             </ul>
+                       </div>
                   </div>
-                <div class="content with-padding">
-                    <div class="notification small-notification notice">Create audio transcription from a file.</div>
-                    <div>
-                                        <div class="submit-field margin-bottom-20">
-                                            <h6>Title</h6>
-                                            <input name="title" type="text" class="with-border small-input quick-text-counter" data-maxlength="100"/><div class="form-text" id="simple-txt-counter-0">0 / 100</div>
-                                        </div>
-                                        <div class="submit-field margin-bottom-20">
-                                            <h6>Upload Media<span class="form-required">*</span></h6>
-                                            <div class="uploadButton margin-top-0">
-                                                <input class="auto-style2" name="file" type="file" id="upload"/>
-                                                <label class="uploadButton-button ripple-effect" for="upload" style="left: 0px; top: -16px; height: 41px; background-color: #CCCCCC">Upload Media</label>
+        <%-- Speech to text --%>
+         <div class="col-lg-9" style=" width: 75%; padding-left: 265px;">
+            <div class="row" style="margin-top:125px;margin-left:15px;">
+                <h1 class="auto-style3">Speech to text</h1>
+                   <nav id="breadcrumbs" style="position: relative; float:right; display: inline-block; top: -29px; left: -126px;"; class="dark">
+                     <ul>
+                        <li>
+                          <a href="Homepage.aspx"><span class="auto-style1">Home</span></a>
+                       </li>
+                           <li>Speech to text</li>
+                      </ul>
+                   </nav>
+                    <!-- Dashboard Box -->
+                      <div class="col-md-4">
+                         <form id="speech_to_text" name="speech_to_text" method="post" action="#">
+                            <div class="dashboard-box margin-top-0 margin-bottom-30">
+                                <!-- Headline -->
+                                <div class="headline">
+                                    <h3>
+                                       <i class="fa-solid fa-headphones"></i>Speech to Text </h3>
+                                 </div>
+                                    <div class="content with-padding">
+                                      <div class="notification small-notification notice">Create audio transcription from a file.</div>
+                                         <div>
+                                            <div class="submit-field margin-bottom-20">
+                                              <h6>Title</h6>
+                                                 <input name="title" type="text" id="text" class="with-border small-input quick-text-counter" data-maxlength="100" />
+                                                   <div id="counter"></div>
                                             </div>
-                                            <small>.mp3, .mp4, .mpeg, .mpga, .m4a, .wav, .webm allowed.&nbsp;Max file size: 0 MB</small>
-                                        </div>
-                                        <div class="submit-field margin-bottom-20">
-                                            <h6>Audio Description</h6>
-                                            <textarea name="description" class="with-border small-input quick-text-counter" data-maxlength="200"></textarea>
-                                            <div class="form-text" id="simple-txt-counter-1">0 / 200</div>
-                                            <small>Describe the speech from the file to help the AI. (Optional)</small>
-                                        </div>
-                                        <small class="form-error"></small>
-                                        <button type="submit" name="submit" class="button ripple-effect full-width">Generate                                                
-                                            <i class="icon-feather-arrow-right"></i></button>
-                                        <div class="notification small-notification notice margin-top-5">Audio transcription may takes time due to the file size.</div>
-                                    </div>
-                               </div>
-                           </div>
-                      </div>
-     <div class="col-lg-8 col-md-12 col-sm-12"style="border: 1px solid grey;margin-left:667px;margin-top:-896px;width:527px;height:873px;">
-                <div class="container7">
-                    <div style="padding: 1px 1px; margin: 1px 1px; display: flex">
-                        <i class='fas fa-align-left fa-2x' style='color: #184698'></i>
-                        <h4 style="margin-top:3px;">Generated Result </h4>
-                        <div style="margin-left:265px;">
-                            <i class='fas fa-file-word fa-2x' style='color:#184698'></i>
-                            <i class='fas fa-file-alt fa-2x' style='color:#184698'></i>
-                            <i class='far fa-copy fa-2x' style='color: #184698'></i>
-                        </div>
-                    </div>
-                    <hr />
-                    <div class="options">
-                        <!-- Headings -->
-                        <select id="formatBlock" class="adv-option-button">
-                            <option value="H1">Paragraph</option>
-                            <option value="H1">Heading 1</option>
-                            <option value="H2">Heading 2</option>
-                            <option value="H3">Heading 3</option>
-                            <option value="H4">Heading 4</option>
-                            <option value="H5">Heading 5</option>
-                            <option value="H6">Heading 6</option>
-                        </select>
-                        <!-- Text Format -->
-                        <button id="bold" class="option-button format">
-                            <i class="fa fa-bold " aria-hidden="true"></i>
-                        </button>
-                        <button id="italic" class="option-button format">
-                            <i class="fa-solid fa-italic"></i>
-                        </button>
-                        <button id="underline" class="option-button format">
-                            <i class="fa-solid fa-underline"></i>
-                        </button>
-                        <button id="strikethrough" class="option-button format">
-                            <i class="fa-solid fa-strikethrough"></i>
-                        </button>
-                        <!-- Alignment -->
-                        <button id="justifyLeft" class="option-button align">
-                            <i class="fa-solid fa-align-left"></i>
-                        </button>
-                        <button id="justifyCenter" class="option-button align">
-                            <i class="fa-solid fa-align-center"></i>
-                        </button>
-                        <button id="justifyRight" class="option-button align">
-                            <i class="fa-solid fa-align-right"></i>
-                        </button>
-                        <!-- Link -->
-                        <button id="createLink" class="adv-option-button">
-                            <i class="fa fa-link"></i>
-                        </button>
-                        <!-- blockquote -->
-                        <button>
-                            <i class="fa fa-quote-right" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                    <hr />
-                    <div class="options">
-                        <!-- Undo/Redo -->
-                        <button id="undo" class="option-button">
-                            <i class="fa-solid fa-rotate-left"></i>
-                        </button>
-                        <button id="redo" class="option-button">
-                            <i class="fa-solid fa-rotate-right"></i>
-                        </button>
-                        <!-- List -->
-                        <button id="insertOrderedList" class="option-button">
-                            <div class="fa-solid fa-list-ol"></div>
-                        </button>
-                        <button id="insertUnorderedList" class="option-button">
-                            <i class="fa-solid fa-list"></i>
-                        </button>
-                        <%-- indentation --%>
-                        <button id="outdent" class="option-button spacing">
-                            <i class="fa-solid fa-outdent"></i>
-                        </button>
-                        <button id="indent" class="option-button spacing">
-                            <i class="fa-solid fa-indent"></i>
-                        </button>
-                    </div>
-                    <div id="text-input" contenteditable="true" style="border: 1px solid lightgrey;height: 230px;width:100%;}"></div>
-                </div>
-            </div>
-       
-     <div class="row"style="margin-top:108px;">
-                           <div class="auto-style2"style="margin-left:317px;">2023 Socius IGB Pvt Ltd, All rights reserved
-                             </div>                                         
-                                </div>
-                           
-                          <div class="row">
-                               <div class="col-md-6">
-                                      <div class="auto-style6"style="margin-left:900px;">
-		                                              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" style="color: #444444;"></i></a>
-		                                              <a href="https://twitter.com/"><i class="fa-brands fa-twitter" style="color:  #444444;"></i></a>
-		                                              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color:  #444444;"></i></a>
-		                                              <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin" style="color:  #444444;"></i></a>
-	                                                  <a href="https://in.pinterest.com/"><i class="fa-brands fa-pinterest" style="color:  #444444;"></i></a>
-		                                              <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube" style="color: #444444;"></i></a>                                                    
-                                                </div>
-                                         </div> 
+                                               <div class="submit-field margin-bottom-20">
+                                                  <h6>Upload Media<span class="form-required">*</span></h6>
+                                                      <div class="uploadButton margin-top-0">
+                                                        <input class="uploadButton-input" name="file" type="file" id="upload" />
+                                                          <label class="uploadButton-button ripple-effect" for="upload">Upload Media</label>
+                                                      </div>
+                                                         <small>.mp3, .mp4, .mpeg, .mpga, .m4a, .wav, .webm allowed.&nbsp;Max file size: 0 MB</small>
+                                                  </div>
+                                                     <div class="submit-field margin-bottom-20">
+                                                        <h6>Audio Description</h6>
+                                                          <textarea name="description" class="with-border small-input quick-text-counter"  id="message" data-maxlength="200"></textarea>
+                                                            <small>Describe the speech from the file to help the AI. (Optional)</small>
+                                                              <div id="character-counter">
+                                                                 <span id="typed-characters">0</span>                                               
+                                                                   <span id="maximum-characters">300</span>
+                                                             </div>
+                                                       </div>
+                                                          <div class="alert alert-danger" role="alert" id="error-msg" style="display: none; color: red; background-color: white; border: none">Unexpected error, please try again. </div>
+                                                           <button type="button" class="auto-style2" id="submit-btn" style="    width: 100%; height: 47px;">Generate&nbsp<i class="fa-solid fa-arrow-right" style="color: #f0f2f5;"></i></button>
+                                                        <div class="notification small-notification notice margin-top-5" style="top: 20px">Audio transcription may takes time due to the file size.</div>
+                                                  </div>
+                                           </div>
                                      </div>
-
+                              </form>
+                          </div>
+                             <div class="col-md-8" style="margin-left:461px;margin-top:-916px;">
+                               <div class="dashboard-box margin-top-0 margin-bottom-30"style="width:578px;">
+                                  <div class="headline">
+                                    <div class="content with-padding">
+                                      <h3><i class="fa fa-align-left"></i>Generated Result</h3>
+                                        <div class="margin-left-auto line-height-1" style="margin-left: 400px;  margin-top: -62px;">
+                                           <a href="#" class="button ripple-effect btn-sm" id="export_to_word" data-tippy-placement="top" title="Export as Word Document"><i class="fa-solid fa-file-word" style="background:white;"></i></a>
+                                           <a href="#" class="button ripple-effect btn-sm" id="export_to_txt" title="Export as Text File" data-tippy-placement="top"><i class="fa-solid fa-file-lines" style="background:white;"   ></i></a>
+                                           <a href="#" class="button ripple-effect btn-sm" id="copy_text" title="Copy Text" data-tippy-placement="top"><i class="fa fa-copy"style="background:white;"></i></a>
+                                       </div>
+                                   </div>
+                              </div>
+                                 <div class="tox-editor-container">
+                                   <form id="ai_document_form" name="ai_document_form" method="post" action="#">
+                                     <div class="d-flex margin-bottom-10" >
+                                      <input name="title" type="text" class="with-border small-input" value="Untitled Document" required="" style="width: 100%;"/>
+                                        <%--<button class="button btn-sm margin-left-5 ripple-effect" name="submit" type="submit" title="Save Document" data-tippy-placement="top" style="margin-top: -24px; height: 38px;">
+                                              <i class="fa-solid fa-floppy-disk"></i>
+                                           </button--%>
+                                   </div>
+                                     <div class="container">
+                                       <div class="options">
+          <!-- Headings -->
+        <select id="formatBlock" class="adv-option-button">
+             <option value="Paragrahh">Paragrahh</option>
+          <option value="H1">Heading1</option>
+          <option value="H2">Heading2</option>
+          <option value="H3">Heading3</option>
+          <option value="H4">Heading4</option>
+          <option value="H5">Heading5</option>
+          <option value="H6">Heading6</option>
+        </select>
+        <!-- Text Format -->
+        <button id="bold" class="option-button format">
+          <i class="fa-solid fa-bold"></i>
+        </button>
+        <button id="italic" class="option-button format">
+          <i class="fa-solid fa-italic"></i>
+        </button>
+        <button id="underline" class="option-button format">
+          <i class="fa-solid fa-underline"></i>
+        </button>
+        <button id="strikethrough" class="option-button format">
+          <i class="fa-solid fa-strikethrough"></i>
+        </button>
+        <button id="superscript" class="option-button script">
+          <i class="fa-solid fa-superscript"></i>
+        </button>
+        <button id="subscript" class="option-button script">
+          <i class="fa-solid fa-subscript"></i>
+        </button>
+        <!-- List -->
+        <button id="insertOrderedList" class="option-button">
+          <div class="fa-solid fa-list-ol"></div>
+        </button>
+        <button id="insertUnorderedList" class="option-button">
+          <i class="fa-solid fa-list"></i>
+        </button>
+        <!-- Undo/Redo -->
+        <button id="undo" class="option-button">
+          <i class="fa-solid fa-rotate-left"></i>
+        </button>
+        <button id="redo" class="option-button">
+          <i class="fa-solid fa-rotate-right"></i>
+        </button>
+        <!-- Link -->
+        <button id="createLink" class="adv-option-button">
+          <i class="fa fa-link"></i>
+        </button>
+        <button id="unlink" class="option-button">
+          <i class="fa fa-unlink"></i>
+        </button>
+        <!-- Alignment -->
+        <button id="justifyLeft" class="option-button align">
+          <i class="fa-solid fa-align-left"></i>
+        </button>
+        <button id="justifyCenter" class="option-button align">
+          <i class="fa-solid fa-align-center"></i>
+        </button>
+        <button id="justifyRight" class="option-button align">
+          <i class="fa-solid fa-align-right"></i>
+        </button>
+        <button id="justifyFull" class="option-button align">
+          <i class="fa-solid fa-align-justify"></i>
+        </button>
+        <button id="indent" class="option-button spacing">
+          <i class="fa-solid fa-indent"></i>
+        </button>
+        <button id="outdent" class="option-button spacing">
+          <i class="fa-solid fa-outdent"></i>
+         </button>                  
+       </div>
+         <div id="text-input" contenteditable="true" style="border:groove;height:449px;"></div>
+          <%--<textarea name="" id="field-writting" cols="70" rows="10" ></textarea>--%>
+                <div id="res">
+                  You've written <span id='words'>0</span>  <strong> words</strong> and <span id='characters'>0</span>  <strong>characters</strong>  .
+              </div>
+           </div>
+        </form>
+       </div>
+     </div>
+    </div>
+  </div>
+</div>   
+     <div class="auto-style3" style="margin-left: 317px;  margin-top: 176px;">
+                 2023 Socius IGB Pvt Ltd, All rights reserved
+     </div>
+        <div class="col-md-6">
+           <div class="auto-style6"style="margin-left:900px;">
+		        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" style="color: #444444;"></i></a>
+		        <a href="https://twitter.com/"><i class="fa-brands fa-twitter" style="color:  #444444;"></i></a>
+		        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color:  #444444;"></i></a>
+		        <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin" style="color:  #444444;"></i></a>
+	            <a href="https://in.pinterest.com/"><i class="fa-brands fa-pinterest" style="color:  #444444;"></i></a>
+		        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube" style="color: #444444;"></i></a>                                                    
+           </div>
+         </div>                   
+      </div>
                   
-                        
-    <script>
-        $("textarea").keyup(function () {
-            var characterCount = $(this).val().length,
-                current = $("#current"),
-                maximum = $("#maximum"),
-                theCount = $("#the-count");
-
-            current.text(characterCount);
-
-            if (characterCount >= 140) {
-                maximum.css("color", "#8f0001");
-                current.css("color", "#8f0001");
-                theCount.css("font-weight", "bold");
-            } else {
-                maximum.css("color", "#666");
-                theCount.css("font-weight", "normal");
-            }
-        });
-    </script>
-     <script>
-         $("textarea").keyup(function () {
-             var characterCount = $(this).val().length,
-                 current = $("#the-current"),
-                 maximum = $("#the-maximum"),
-                 Count = $("#count");
-
-             current.text(characterCount);
-
-             if (characterCount >= 140) {
-                 the-maximum.css("color", "#8f0001");
-                 the-current.css("color", "#8f0001");
-                 Count.css("font-weight", "bold");
-             } else {
-                 the-maximum.css("color", "#666");
-                 Count.css("font-weight", "normal");
-             }
-         });
-     </script>
+                      
+  
                       <%-- drop down --%>
     <script>
         /* When the user clicks on the button, 
@@ -1143,5 +1141,271 @@ element.style {
              }
          }
      </script>  
+    <script>
+        let optionsButtons = document.querySelectorAll(".option-button");
+        let advancedOptionButton = document.querySelectorAll(".adv-option-button");
+        let fontName = document.getElementById("fontName");
+        let fontSizeRef = document.getElementById("fontSize");
+        let writingArea = document.getElementById("text-input");
+        let linkButton = document.getElementById("createLink");
+        let alignButtons = document.querySelectorAll(".align");
+        let spacingButtons = document.querySelectorAll(".spacing");
+        let formatButtons = document.querySelectorAll(".format");
+        let scriptButtons = document.querySelectorAll(".script");
+
+        //List of fontlist
+        let fontList = [
+            "Arial",
+            "Verdana",
+            "Times New Roman",
+            "Garamond",
+            "Georgia",
+            "Courier New",
+            "cursive",
+        ];
+
+        //Initial Settings
+        const initializer = () => {
+            //function calls for highlighting buttons
+            //No highlights for link, unlink,lists, undo,redo since they are one time operations
+            highlighter(alignButtons, true);
+            highlighter(spacingButtons, true);
+            highlighter(formatButtons, false);
+            highlighter(scriptButtons, true);
+
+            //create options for font names
+            fontList.map((value) => {
+                let option = document.createElement("option");
+                option.value = value;
+                option.innerHTML = value;
+                fontName.appendChild(option);
+            });
+
+            //fontSize allows only till 7
+            for (let i = 1; i <= 7; i++) {
+                let option = document.createElement("option");
+                option.value = i;
+                option.innerHTML = i;
+                fontSizeRef.appendChild(option);
+            }
+
+            //default size
+            fontSizeRef.value = 3;
+        };
+
+        //main logic
+        const modifyText = (command, defaultUi, value) => {
+            //execCommand executes command on selected text
+            document.execCommand(command, defaultUi, value);
+        };
+
+        //For basic operations which don't need value parameter
+        optionsButtons.forEach((button) => {
+            button.addEventListener("click", () => {
+                event.preventDefault();
+                modifyText(button.id, false, null);
+            });
+        });
+
+        //options that require value parameter (e.g colors, fonts)
+        advancedOptionButton.forEach((button) => {
+            button.addEventListener("change", () => {
+                modifyText(button.id, false, button.value);
+            });
+        });
+
+        //link
+        linkButton.addEventListener("click", () => {
+            let userLink = prompt("Enter a URL");
+            //if link has http then pass directly else add https
+            if (/http/i.test(userLink)) {
+                modifyText(linkButton.id, false, userLink);
+            } else {
+                userLink = "http://" + userLink;
+                modifyText(linkButton.id, false, userLink);
+            }
+        });
+
+        //Highlight clicked button
+        const highlighter = (className, needsRemoval) => {
+            className.forEach((button) => {
+                button.addEventListener("click", () => {
+                    event.preventDefault();
+                    //needsRemoval = true means only one button should be highlight and other would be normal
+                    if (needsRemoval) {
+                        let alreadyActive = false;
+
+                        //If currently clicked button is already active
+                        if (button.classList.contains("active")) {
+                            alreadyActive = true;
+                        }
+
+                        //Remove highlight from other buttons
+                        highlighterRemover(className);
+                        if (!alreadyActive) {
+                            //highlight clicked button
+                            button.classList.add("active");
+                        }
+                    } else {
+                        //if other buttons can be highlighted
+                        button.classList.toggle("active");
+                    }
+                });
+            });
+        };
+
+        const highlighterRemover = (className) => {
+            className.forEach((button) => {
+                button.classList.remove("active");
+            });
+        };
+
+        window.onload = initializer();
+    </script>
+    <script>
+        // When the user clicks the submit button, show the error message
+        document.getElementById("submit-btn").addEventListener("click", function () {
+            document.getElementById("error-msg").style.display = "block";
+        });
+    </script>
+    <script>
+        /**
+ * Select the textarea element.
+ */
+        const textAreaElement = document.querySelector("#message");
+        /**
+         * Select the character counter element.
+         */
+        const characterCounterElement = document.querySelector("#character-counter");
+        /**
+         * Select the element that shows the number of characters typed in the textarea.
+         */
+        const typedCharactersElement = document.querySelector("#typed-characters");
+        /**
+         * Define the maximum number of characters allowed.
+         */
+        const maximumCharacters = 300;
+        /**
+         * Add a "keydown" event listener on the textarea element.
+         */
+        textAreaElement.addEventListener("keydown", (event) => {
+            /**
+             * Count the number of characters typed.
+             */
+            const typedCharacters = textAreaElement.value.length;
+            /**
+             * Check if the typed characters is more than allowed characters limit.
+             * If yes, then return false.
+             */
+            if (typedCharacters > maximumCharacters) {
+                return false;
+            }
+            /**
+             * Display the number of characters typed.
+             */
+            typedCharactersElement.textContent = typedCharacters;
+            /**
+             * Change the character counter text colour to "orange" if the typed
+             * characters number is between 200 to 250. If more, then change the colour to "red".
+             */
+            if (typedCharacters >= 200 && typedCharacters < 250) {
+                characterCounterElement.classList = "text-warning";
+            } else if (typedCharacters >= 250) {
+                characterCounterElement.classList = "text-danger";
+            }
+        });
+    </script>
+     <script>
+         const messageEle = document.getElementById('text');
+         const counterEle = document.getElementById('counter');
+
+         messageEle.addEventListener('input', function (e) {
+             const target = e.target;
+
+             // Get the `maxlength` attribute
+             const maxLength = target.getAttribute('maxlength');
+
+             // Count the current number of characters
+             const currentLength = target.value.length;
+
+             counterEle.innerHTML = `${currentLength}/${maxLength}`;
+         });
+     </script>
+    <script>
+        const messageEle = document.getElementById('text');
+        const counterEle = document.getElementById('counter');
+
+        messageEle.addEventListener('input', function (e) {
+            const target = e.target;
+
+            // Get the `maxlength` attribute
+            const maxLength = target.getAttribute('maxlength');
+
+            // Count the current number of characters
+            const currentLength = target.value.length;
+
+            counterEle.innerHTML = `${currentLength}/${maxLength}`;
+        });
+    </script>
+    <script>
+        let input = document.getElementById("text-input"),
+            words = document.getElementById('words'),
+            characters = document.getElementById('characters');
+        function wordCounter(text) {
+            var text = input.value;
+            var wordCount = 0;
+            for (var i = 0; i <= text.length; i++) {
+                if (text.charAt(i) == ' ') {
+                    wordCount++;
+                }
+            }
+            words.innerText = wordCount;
+        }
+        input.addEventListener('keyup', function (e) {
+            wordCounter(e.value);
+        });
+
+        function caracterCounter(text) {
+            var text = input.value;
+            var wordCount = 0;
+            for (var i = 0; i <= text.length - 1; i++) {
+                text.charAt(i) == wordCount++;
+            }
+            characters.innerText = wordCount;
+        }
+        input.addEventListener('keyup', function (e) {
+            caracterCounter(e.value);
+        });
+    </script>
+    <script>
+        let input = document.getElementById("field-writting"),
+            words = document.getElementById('words'),
+            characters = document.getElementById('characters');
+        function wordCounter(text) {
+            var text = input.value;
+            var wordCount = 0;
+            for (var i = 0; i <= text.length; i++) {
+                if (text.charAt(i) == ' ') {
+                    wordCount++;
+                }
+            }
+            words.innerText = wordCount;
+        }
+        input.addEventListener('keyup', function (e) {
+            wordCounter(e.value);
+        });
+
+        function caracterCounter(text) {
+            var text = input.value;
+            var wordCount = 0;
+            for (var i = 0; i <= text.length - 1; i++) {
+                text.charAt(i) == wordCount++;
+            }
+            characters.innerText = wordCount;
+        }
+        input.addEventListener('keyup', function (e) {
+            caracterCounter(e.value);
+        });
+    </script>
 </body>
 </html>

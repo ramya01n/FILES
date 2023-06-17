@@ -70,18 +70,24 @@
     <Content Include="Account setting page.aspx" />
     <Content Include="Affiliated pages.aspx" />
     <Content Include="Ai chat.aspx" />
-    <Content Include="Ai code.aspx" />
+    <Content Include="Aicode1.aspx" />
     <Content Include="All ai images main  .aspx" />
     <Content Include="Ai images.aspx" />
     <Content Include="All documents.aspx" />
-    <Content Include="bootstrap\css\bootstrap.bundle.min.js" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
-    <Content Include="bootstrap\js\bootstrap.min.css" />
+    <Content Include="Chnage plan %28bank deposit%29.aspx" />
+    <Content Include="Contact1.aspx" />
+    <Content Include="Currentplan.aspx" />
+    <Content Include="Feedback1.aspx" />
+    <Content Include="firstblog1.aspx" />
+    <Content Include="images\wire.png" />
+    <Content Include="Recentblog1.aspx" />
+    <Content Include="script\ai-chat.js" />
+    <Content Include="bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap\js\popper.min.js" />
     <Content Include="Dashboard.aspx" />
-    <Content Include="demo.aspx" />
     <Content Include="FAQ.aspx" />
-    <Content Include="Feedback.aspx" />
-    <Content Include="First blog.aspx" />
     <Content Include="fontawesome\datatables\datatable\css\jquery.dataTables.min.css" />
     <Content Include="fontawesome\datatables\datatable\js\jquery.dataTables.min.js" />
     <Content Include="fontawesome\datatables\datatable\js\jquery.min.js" />
@@ -2167,17 +2173,22 @@
     <Content Include="images\wallet.png" />
     <Content Include="images\words used this month.png" />
     <Content Include="Loginpage.aspx" />
-    <Content Include="membership main page.aspx" />
     <Content Include="billing details.aspx" />
     <Content Include="membership plan.aspx" />
     <Content Include="membershipbilling detailsaspx.aspx" />
-    <Content Include="Recent blog.aspx" />
     <Content Include="Registrationpage.aspx" />
     <Content Include="Speech to text.aspx" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="style\ai-chat.css" />
     <Content Include="Templates.aspx" />
+    <Content Include="testimonilas.aspx" />
+    <Content Include="Transaction1.aspx" />
+    <Content Include="Transactionpage.aspx" />
+    <Content Include="Upgrade membership 1.aspx" />
     <Content Include="Upgrade membership.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
     <Content Include="WebForm3.aspx" />
     <Content Include="Withdrawal page .aspx" />
   </ItemGroup>
@@ -2203,12 +2214,12 @@
     <Compile Include="Ai chat.aspx.designer.cs">
       <DependentUpon>Ai chat.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Ai code.aspx.cs">
-      <DependentUpon>Ai code.aspx</DependentUpon>
+    <Compile Include="Aicode1.aspx.cs">
+      <DependentUpon>Aicode1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Ai code.aspx.designer.cs">
-      <DependentUpon>Ai code.aspx</DependentUpon>
+    <Compile Include="Aicode1.aspx.designer.cs">
+      <DependentUpon>Aicode1.aspx</DependentUpon>
     </Compile>
     <Compile Include="All ai images main  .aspx.cs">
       <DependentUpon>All ai images main  .aspx</DependentUpon>
@@ -2231,19 +2242,33 @@
     <Compile Include="All documents.aspx.designer.cs">
       <DependentUpon>All documents.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Chnage plan %28bank deposit%29.aspx.cs">
+      <DependentUpon>Chnage plan %28bank deposit%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chnage plan %28bank deposit%29.aspx.designer.cs">
+      <DependentUpon>Chnage plan %28bank deposit%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact1.aspx.cs">
+      <DependentUpon>Contact1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact1.aspx.designer.cs">
+      <DependentUpon>Contact1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Currentplan.aspx.cs">
+      <DependentUpon>Currentplan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Currentplan.aspx.designer.cs">
+      <DependentUpon>Currentplan.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="demo.aspx.cs">
-      <DependentUpon>demo.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="demo.aspx.designer.cs">
-      <DependentUpon>demo.aspx</DependentUpon>
     </Compile>
     <Compile Include="FAQ.aspx.cs">
       <DependentUpon>FAQ.aspx</DependentUpon>
@@ -2252,19 +2277,19 @@
     <Compile Include="FAQ.aspx.designer.cs">
       <DependentUpon>FAQ.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Feedback.aspx.cs">
-      <DependentUpon>Feedback.aspx</DependentUpon>
+    <Compile Include="Feedback1.aspx.cs">
+      <DependentUpon>Feedback1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Feedback.aspx.designer.cs">
-      <DependentUpon>Feedback.aspx</DependentUpon>
+    <Compile Include="Feedback1.aspx.designer.cs">
+      <DependentUpon>Feedback1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="First blog.aspx.cs">
-      <DependentUpon>First blog.aspx</DependentUpon>
+    <Compile Include="firstblog1.aspx.cs">
+      <DependentUpon>firstblog1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="First blog.aspx.designer.cs">
-      <DependentUpon>First blog.aspx</DependentUpon>
+    <Compile Include="firstblog1.aspx.designer.cs">
+      <DependentUpon>firstblog1.aspx</DependentUpon>
     </Compile>
     <Compile Include="ForgetPassword.aspx.cs">
       <DependentUpon>ForgetPassword.aspx</DependentUpon>
@@ -2286,13 +2311,6 @@
     </Compile>
     <Compile Include="Loginpage.aspx.designer.cs">
       <DependentUpon>Loginpage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="membership main page.aspx.cs">
-      <DependentUpon>membership main page.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="membership main page.aspx.designer.cs">
-      <DependentUpon>membership main page.aspx</DependentUpon>
     </Compile>
     <Compile Include="billing details.aspx.cs">
       <DependentUpon>billing details.aspx</DependentUpon>
@@ -2316,12 +2334,12 @@
       <DependentUpon>membershipbilling detailsaspx.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Recent blog.aspx.cs">
-      <DependentUpon>Recent blog.aspx</DependentUpon>
+    <Compile Include="Recentblog1.aspx.cs">
+      <DependentUpon>Recentblog1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Recent blog.aspx.designer.cs">
-      <DependentUpon>Recent blog.aspx</DependentUpon>
+    <Compile Include="Recentblog1.aspx.designer.cs">
+      <DependentUpon>Recentblog1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Registrationpage.aspx.cs">
       <DependentUpon>Registrationpage.aspx</DependentUpon>
@@ -2351,6 +2369,34 @@
     <Compile Include="Templates.aspx.designer.cs">
       <DependentUpon>Templates.aspx</DependentUpon>
     </Compile>
+    <Compile Include="testimonilas.aspx.cs">
+      <DependentUpon>testimonilas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testimonilas.aspx.designer.cs">
+      <DependentUpon>testimonilas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction1.aspx.cs">
+      <DependentUpon>Transaction1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transaction1.aspx.designer.cs">
+      <DependentUpon>Transaction1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transactionpage.aspx.cs">
+      <DependentUpon>Transactionpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Transactionpage.aspx.designer.cs">
+      <DependentUpon>Transactionpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Upgrade membership 1.aspx.cs">
+      <DependentUpon>Upgrade membership 1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Upgrade membership 1.aspx.designer.cs">
+      <DependentUpon>Upgrade membership 1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Upgrade membership.aspx.cs">
       <DependentUpon>Upgrade membership.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2364,6 +2410,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm3.aspx.cs">
       <DependentUpon>WebForm3.aspx</DependentUpon>

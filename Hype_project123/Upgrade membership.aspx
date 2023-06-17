@@ -2,7 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <style>#breadcrumbs ul li {
+    <style>
+        #breadcrumbs ul li {
     display: inline-block;
     list-style: none;
     margin: 0 0 0 7px;

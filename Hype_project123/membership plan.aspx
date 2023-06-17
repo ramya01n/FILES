@@ -36,7 +36,7 @@
         .innersection li{
             text-decoration: none;
             list-style-type: none;
-            margin-top: 8px;
+            margin-top: 4px;
            
         }
         .innersection li button:hover{
@@ -45,9 +45,10 @@
         .auto-style7 {
             width: 349px;
             height: 46px;
-            margin-left: 360px;
+            margin-left:67%;
             margin-top: 110px;
-            background:#0094ff
+            background-color: #0949b9;
+            color:white;
         }
         .auto-style8 {
             margin-top: 21px;
@@ -70,7 +71,7 @@
                 </div>
               </div>
         </div>
-            <button type="submit" class="auto-style7" name="upgrade1" value="1">&nbsp; Recommended&nbsp;&nbsp; </button>
+            <button type="submit" class="auto-style7" name="upgrade1" value="1">Recommended </button>
 
         <div class="auto-style8">
             <div class="innersection">      
@@ -88,7 +89,9 @@
                 <li> <i class="fa-regular fa-circle-check" style="color: #5af207;"></i>Hide Ads</li>
                  <li><i class="fa-regular fa-circle-xmark" style="color: #ff0000;"></i>Free Setup</li>
                  <li><i class="fa-regular fa-circle-xmark" style="color: #ff0000;"></i>Free Support</li>
-                <li><button  class="btn btn-primary" style="width:200px;">Current Plan</button></li>
+                <li>  <button class="button" onclick="window.location.href='Upgrade membership.aspx'" type="button">
+                               current plan
+                             </button></li>
             </ul>
             </div>
             <div class="innersection">            
@@ -106,7 +109,10 @@
                     <li><i class="fa-regular fa-circle-check" style="color: #5af207;"></i> Hide Ads</li>
                     <li><i class="fa-regular fa-circle-xmark" style="color: #ff0000;"></i>Free Setup</li>
                     <li><i class="fa-regular fa-circle-xmark" style="color: #ff0000;"></i>Free Support</li>
-                     <li><button class="btn btn-primary" style="width:200px;">Upgrade</button></li>
+                     <li>  <button class="button" onclick="window.location.href='Upgrade membership.aspx'" type="button">
+                                Upgarde plan
+                             </button></li>
+
                 </ul>
                 </div>
                 <div class="innersection">

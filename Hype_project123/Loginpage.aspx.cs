@@ -20,34 +20,34 @@ namespace Hype_project123
 
 		protected void Button1_click(object sender, EventArgs e)
 		{
-            try
-            {
-                SqlConnection con = new SqlConnection(strcone);
-                if (con.State == ConnectionState.Closed)
-                {
-                    con.Open();
-                }
-                SqlCommand cmd = new SqlCommand("select * from Rig where Email_address ='" + TextBox1.Text.Trim() + "' and Password = '" + TextBox2.Text.Trim() + "'", con);
-                SqlDataReader dr = cmd.ExecuteReader();
-                if (dr.HasRows)
-                {
-                    while (dr.Read())
-                    {
-                        Response.Write("<script>alert('Login Suceesful ');</script>");
-                        Session["username"] = dr.GetValue(1).ToString();
+			try
+			{
+				SqlConnection con = new SqlConnection(strcone);
+				if (con.State == ConnectionState.Closed)
+				{
+					con.Open();
+				}
+				SqlCommand cmd = new SqlCommand("select * from Rig where Email_address ='" + TextBox1.Text.Trim() + "' and Password = '" + TextBox2.Text.Trim() + "'", con);
+				SqlDataReader dr = cmd.ExecuteReader();
+				if (dr.HasRows)
+				{
+					while (dr.Read())
+					{
+						Response.Write("<script>alert('Login Suceesful ');</script>");
+						Session["username"] = dr.GetValue(1).ToString();
 
-                    }
-                    Response.Redirect("Dashboard.aspx");
-                }
-                else
-                {
-                    Response.Write("<script>alert('Invalid Credentials ');</script>");
-                }
-            }
-            catch (Exception ex)
-            {
+					}
+					Response.Redirect("Dashboard.aspx");
+				}
+				else
+				{
+					Response.Write("<script>alert('Invalid Credentials ');</script>");
+				}
+			}
+			catch (Exception)
+			{
 
-            }
-        }
+			}
+		}
 	}
 }
